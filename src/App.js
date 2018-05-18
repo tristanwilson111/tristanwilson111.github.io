@@ -78,7 +78,7 @@ class App extends Component {
                                                 website is still under development, as we aren't currently ready to launch.
                                             </CardText>
                                             <CardActions border>
-                                                <Button colored href='https://www.simplegrow.net/'>Check It Out</Button>
+                                                <Button colored href='https://www.simplegrow.net/'>Check Out Simplegrow</Button>
                                             </CardActions>
                                             <CardMenu
                                                 style={{
@@ -108,7 +108,91 @@ class App extends Component {
                                                 Box kits.
                                             </CardText>
                                             <CardActions border>
-                                                <Button colored href='https://www.tekservices.net/'>Check It Out</Button>
+                                                <Button colored href='https://www.tekservices.net/'>Check Out TEK Services</Button>
+                                            </CardActions>
+                                            <CardMenu
+                                                style={{
+                                                color: '#fff'
+                                            }}>
+                                                <IconButton name="share"/>
+                                            </CardMenu>
+                                        </Card>
+                                    </Cell>
+                                    <Cell>
+                                        <Card
+                                            shadow={0}
+                                            style={{
+                                            width: 'auto',
+                                            height: '332px',
+                                            margin: 'auto'
+                                        }}>
+                                            <CardTitle
+                                                style={{
+                                                color: '#fff',
+                                                height: '176px',
+                                                background: 'url(https://imgur.com/qDdmcCd.png) center / cover'
+                                            }}></CardTitle>
+                                            <CardText>
+                                                Link to my GitHub
+                                            </CardText>
+                                            <CardActions border>
+                                                <Button colored href='https://github.com/tristanwilson111'>Check Out My Github</Button>
+                                            </CardActions>
+                                            <CardMenu
+                                                style={{
+                                                color: '#fff'
+                                            }}>
+                                                <IconButton name="share"/>
+                                            </CardMenu>
+                                        </Card>
+                                    </Cell>
+                                    <Cell>
+                                        <Card
+                                            shadow={0}
+                                            style={{
+                                            width: 'auto',
+                                            height: '332px',
+                                            margin: 'auto'
+                                        }}>
+                                            <CardTitle
+                                                style={{
+                                                color: '#fff',
+                                                height: '176px',
+                                                background: 'url(https://imgur.com/6pUjdij.png) center / cover'
+                                            }}></CardTitle>
+                                            <CardText>
+                                                Link to my LinkedIn
+                                            </CardText>
+                                            <CardActions border>
+                                                <Button colored href='https://www.linkedin.com/in/tristan-wilson/'>Check Out My LinkedIn</Button>
+                                            </CardActions>
+                                            <CardMenu
+                                                style={{
+                                                color: '#fff'
+                                            }}>
+                                                <IconButton name="share"/>
+                                            </CardMenu>
+                                        </Card>
+                                    </Cell>
+                                    <Cell>
+                                        <Card
+                                            shadow={0}
+                                            style={{
+                                            width: 'auto',
+                                            height: '332px',
+                                            margin: 'auto'
+                                        }}>
+                                            <CardTitle
+                                                style={{
+                                                color: '#fff',
+                                                height: '176px',
+                                                background: 'url(https://imgur.com/vY0RoXo.png) center / cover'
+                                            }}></CardTitle>
+                                            <CardText>
+                                                Link to my Twitter
+                                            </CardText>
+                                            <CardActions border>
+                                                <Button colored href='https://twitter.com/TristanW_Dev'>Check Out My Twitter</Button>
                                             </CardActions>
                                             <CardMenu
                                                 style={{
@@ -125,7 +209,7 @@ class App extends Component {
                     <Footer size="mini">
                         <FooterSection type="left" logo="Created by Tristan Wilson">
                             <FooterLinkList>
-                                <a href="#">Contact Me</a>
+                                <a href="mailto:tristanwilson111@gmail.com">Contact Me</a>
                             </FooterLinkList>
                         </FooterSection>
                     </Footer>
